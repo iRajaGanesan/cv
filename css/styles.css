@@ -1,0 +1,197 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive; */
+  color: #40514E;
+}
+h1{
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* font-size: 5.625em;
+  font-size: 90px; */
+  /* line-height: 2; */
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  /* color: #40514E; */
+}
+img{
+  vertical-align: middle;
+}
+hr{
+  border: 6px dotted #eaf6f6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #11999e;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #eaf6f6;
+}
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud, .bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  top: 40px;
+  right: 300px;
+}
+.bottom-cloud{
+  bottom: 300px;
+  left: 250px;
+}
+.middle-container, .bottom-container{
+
+}
+.middle-container{
+  padding: 100px 0;
+}
+.middle-container .profile img{
+  border-radius: 180px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.skills .skill-row{
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+}
+/* .skills .skill-row img, .skills .skill-row > div{
+  float: none;
+  display: inline-block;
+  margin: 0 15px;
+} */
+/* .skills .skill-row img{
+  width: 25%;
+  border-radius: 100%;
+} */
+.design-development-img{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.wordpress-img{
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+/* .design-development-description{
+  clear: left;
+}
+.wordpress-description{
+  clear: right;
+} */
+/* .skills .skill-row > div{
+  text-align: left;
+} */
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+/* .bottom-container ul, .contact-me ul{
+  list-style: none;
+  clear: both;
+  margin: 0;
+}
+.bottom-container ul{
+  padding: 15px 0 0;
+}
+/* .contact-me ul{
+   padding: 0 0 30px;
+ } */
+/* .contact-me ul li{
+  margin: 0;
+  padding: 5px 0;
+}
+.bottom-container ul li{
+  float: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+.bottom-container ul li:first-of-type{
+  margin: 0 5px 0 0;
+}
+.bottom-container ul li:last-of-type{
+  margin: 0 0 0 5px;
+}
+.bottom-container ul li a, .contact-me ul li a{
+  text-decoration: none;
+} */
+.contact-me ul li a, .bottom-container .copyright{
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 16px;
+  line-height: 24px;
+}
+/* .contact-me ul li a{
+  color: #40514E;
+}
+.contact-me ul li a img{
+  margin: 0 5px 0 0;
+} */
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.bottom-container .copyright{
+  font-size: 0.75rem;
+  color: #eaf6f6;
+  padding: 20px 0;
+}
